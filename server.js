@@ -5,7 +5,7 @@ const mongodb = require('mongoose')
 
 const serverUri = 'https://localhost:' + port
 
-const mongoUri = 'mongodb+srv://emil:bytmig123@cluster0-ak8ja.mongodb.net/react-api-db?retryWrites=true&w=majority'
+const mongoUri = ''
 
 //starting server
 http.createServer(app).listen(port, () => console.log('WEBSERVER: ' + serverUri))
